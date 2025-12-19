@@ -28,11 +28,12 @@ const FIELDS = [
 
 function Personal() {
   return (
-    <div className="personal-section">
+    <fieldset className="personal-section">
+      <legend>Dane osobowe</legend>
       {FIELDS.map((field) => (
         <Field key={field.id} fieldInfo={{ ...field }} />
       ))}
-    </div>
+    </fieldset>
   );
 }
 

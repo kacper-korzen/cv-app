@@ -1,6 +1,6 @@
 import '../styles/Field.css';
 
-function Field({ fieldInfo }) {
+function Field({ fieldInfo, value, onChange }) {
   return (
     <div className="field-container">
       <label htmlFor={fieldInfo.id}>{fieldInfo.fieldName}</label>
@@ -8,6 +8,8 @@ function Field({ fieldInfo }) {
         type={fieldInfo.type}
         id={fieldInfo.id}
         placeholder={fieldInfo.placeholder}
+        value={value}
+        onChange={(e) => onChange(fieldInfo.id, e.target.value)}
         className="field-input"
       />
     </div>

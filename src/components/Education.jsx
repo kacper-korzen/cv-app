@@ -1,6 +1,6 @@
 import Field from './Field';
 
-function Education(fields) {
+function Education({ fields }) {
   return (
     <fieldset className="education-section">
       <legend>Edukacja</legend>

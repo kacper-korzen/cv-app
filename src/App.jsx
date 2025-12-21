@@ -1,15 +1,11 @@
 import './styles/App.css';
-import Personal from './components/Personal';
-import Education from './components/Education';
-import Experience from './components/Experience';
+import Home from './pages/Home';
 
 function App() {
   return (
-    <>
-      <Personal />
-      <Education />
-      <Experience />
-    </>
+    <div className="app">
+      <Home />
+    </div>
   );
 }
 

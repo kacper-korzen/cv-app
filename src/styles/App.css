@@ -1,6 +1,12 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+.app {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+
+  width: 100%;
+  max-width: 1920px;
+  margin-inline: auto;
+
+  padding-inline: clamp(1rem, 5vw, 4rem);
+  padding-top: 2rem;
 }

@@ -1,15 +1,19 @@
 import Field from './Field';
+import '../styles/Personal.css';
 
-function Personal({ fields }) {
+function Personal({ fields, values, onChange }) {
   return (
-    <form action="">
-      <fieldset className="personal-section">
-        <legend>Dane osobowe</legend>
-        {fields.map((field) => (
-          <Field key={field.id} fieldInfo={field} />
-        ))}
-      </fieldset>
-    </form>
+    <section className="personal-grid">
+      {fields.map((field) => (
+        <Field
+          key={field.id}
+          fieldInfo={field}
+          value={values[field.id] || ''}
+          onChange={onChange}
+          className={field.className}
+        />
+      ))}
+    </section>
   );
 }
 

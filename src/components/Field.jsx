@@ -3,6 +3,7 @@ import '../styles/Field.css';
 function Field({ fieldInfo, value, onChange, className }) {
   return (
     <div className="field-container">
+      {'label' in fieldInfo && fieldInfo.label}
       <span>{fieldInfo.icon}</span>
       <input
         type={fieldInfo.type}

@@ -1,0 +1,37 @@
+.personal-grid {
+  width: 100%;
+  background-color: #0e374e;
+  padding-inline: 2rem;
+  padding-block: 2rem;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto auto;
+  gap: 1rem;
+
+  color: whitesmoke;
+}
+
+.personal-grid > :first-child {
+  grid-column: 1 / -1;
+  grid-row: 1;
+}
+
+.personal-grid > :nth-child(n + 2) {
+  grid-row: 2;
+}
+
+.input-h1 {
+  font-size: 2em;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #000;
+  border: 3px solid #e0e0e0;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.input-h1:focus {
+  border-color: #cfe3ff;
+  box-shadow: none;
+}

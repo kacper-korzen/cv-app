@@ -1,12 +1,13 @@
 import Button from './Button';
 import Entry from './Entry';
+import '../styles/SectionList.css';
 
-function Education({ title, fields, entries, onChange, onAdd, onRemove }) {
+function SectionList({ title, fields, entries, onChange, onAdd, onRemove }) {
   return (
     <div className="list-section">
       <div className="list-header">{title}</div>
 
-      <details>
+      <details open={true}>
         <Button children={'Dodaj'} variant={'add'} onClick={onAdd} />
         <summary></summary>
         <div className="list-block">
@@ -25,4 +26,4 @@ function Education({ title, fields, entries, onChange, onAdd, onRemove }) {
   );
 }
 
-export default Education;
+export default SectionList;

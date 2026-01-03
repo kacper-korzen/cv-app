@@ -2,6 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 1rem;
 }
 
 .field-container input {
@@ -18,4 +19,30 @@
 .field-container input:focus {
   background-color: rgba(255, 255, 255, 0.1);
   transition: background-color 0.2s ease;
+}
+
+.field-container textarea {
+  background-color: inherit;
+  border: none;
+  border-radius: 0;
+  outline: none;
+  box-shadow: none;
+  padding: 0.75rem 1rem;
+  width: auto;
+  transition: background-color 0.2s ease;
+  color: inherit;
+  resize: vertical;
+  min-height: fit-content;
+  line-height: 1.5;
+  font-family: inherit;
+}
+
+.field-container textarea:focus {
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: background-color 0.2s ease;
+}
+
+.field-container textarea::-webkit-resizer,
+.field-container textarea::-webkit-scrollbar {
+  display: none;
 }

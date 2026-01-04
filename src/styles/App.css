@@ -10,8 +10,3 @@
   padding-inline: clamp(1rem, 5vw, 4rem);
   padding-block: 2rem;
 }
-
-.cv {
-  background-color: #7b9bad;
-  width: 100%;
-}

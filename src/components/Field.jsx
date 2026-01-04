@@ -2,7 +2,7 @@ import '../styles/Field.css';
 
 function Field({ fieldInfo, value, onChange, className }) {
   return (
-    <div className="field-container">
+    <div className="field-container" inert>
       {'label' in fieldInfo && fieldInfo.label}
       <span>{fieldInfo.icon}</span>
       {fieldInfo.type === 'textarea' ? (

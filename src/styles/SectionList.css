@@ -12,3 +12,18 @@
   color: #0e374e;
   background-color: #0e374e27;
 }
+
+@media print {
+  .list-section {
+    color: black;
+  }
+
+  .list-header {
+    color: black;
+    print-color-adjust: exact;
+  }
+
+  summary {
+    list-style: none;
+  }
+}

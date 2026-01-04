@@ -35,3 +35,11 @@
   border-color: #cfe3ff;
   box-shadow: none;
 }
+
+@media print {
+  .personal-grid {
+    background-color: gray;
+    color: white;
+    print-color-adjust: exact;
+  }
+}

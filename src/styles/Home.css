@@ -1,0 +1,28 @@
+.cv {
+  background-color: #7b9bad;
+  width: 100%;
+}
+
+.menu {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem 2rem;
+  background-color: #0e374ec0;
+}
+
+.preview-mode button {
+  display: none;
+}
+
+.preview-mode input,
+.preview-mode textarea {
+  pointer-events: none;
+}
+
+@media print {
+  .menu,
+  button,
+  .btn-base {
+    display: none;
+  }
+}

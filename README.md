@@ -32,7 +32,7 @@ General info includes name, email, and phone; education covers school, title, an
 
 ## Demo Video
 
-![Podgląd aplikacji](app_demo/app-preview.webm)
+![Podgląd aplikacji](./app_demo/app-preview.webm)
 
 ## Getting Started
 

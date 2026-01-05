@@ -202,7 +202,10 @@ function Home() {
             onClick={handleExport}
           />
         </div>
-        <div className={isPreview ? 'preview-mode' : ''}>
+        <div
+          className={isPreview ? 'preview-mode' : ''}
+          inert={isPreview ? '' : undefined}
+        >
           <Personal
             fields={PERSONALFIELDS}
             values={personal}

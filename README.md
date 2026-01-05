@@ -31,8 +31,7 @@ General info includes name, email, and phone; education covers school, title, an
 [**Live Demo**](YOUR_DEPLOYED_URL) | [**Project Specs**](https://www.theodinproject.com/lessons/node-path-react-new-cv-application)
 
 ## Demo Video
-
-<video src="https://raw.githubusercontent.com/kacper-korzen/cv-app/main/app_demo/app-preview.webm" width="100%" autoplay loop muted></video>
+[Podgląd aplikacji](https://github.com/user-attachments/assets/a9cf9e2b-0ac8-4df0-8003-99695fbf9f2a)
 
 ## Getting Started
 

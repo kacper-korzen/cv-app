@@ -32,7 +32,7 @@ General info includes name, email, and phone; education covers school, title, an
 
 ## Demo Video
 
-<video src="https://raw.githubusercontent.com/kacper-korzen/cv-app/main/app_demo/app-preview.webm" width="100%" autoplay loop muted></video>
+![Podgląd aplikacji](app_demo/app-preview.webm)
 
 ## Getting Started
 

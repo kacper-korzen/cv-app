@@ -15,9 +15,12 @@ General info includes name, email, and phone; education covers school, title, an
 
 - 🧱 **React Components** – structured into sections for general info, education, and practical experience (`src/components`).
 - 📝 **Form Sections** – input fields for personal details, education (school, study title, dates), and experience (company, position, responsibilities, dates).
+- ✨ **Live Preview Mode** – tryb podglądu, który blokuje edycję (użycie atrybutu inert), aby zobaczyć czysty dokument.
+
+- 📄 **PDF Export** – możliwość zapisu CV do pliku PDF przy użyciu systemowego okna drukowania i dedykowanych stylów @media print.
 - ✏️ **Edit/Submit Toggle** – buttons to switch between input forms and displayed CV content, pre-filling values on edit.
 - 💾 **State & Props** – manages form data and rendering across components.
-- 🎨 **Custom Styling** – CSS files in `src/styles` for responsive layout.
+- 🎨 **Custom Styling** – CSS files in `src/styles`.
 - ⚙️ **No Backend** – client-side React app for learning core concepts.
 - 🚀 **Built with [Vite](https://vitejs.dev/)** – fast development server and builds.
 
@@ -27,9 +30,9 @@ General info includes name, email, and phone; education covers school, title, an
 
 [**Live Demo**](YOUR_DEPLOYED_URL) | [**Project Specs**](https://www.theodinproject.com/lessons/node-path-react-new-cv-application)
 
-## Screenshots
+## Demo Video
 
-![CV Application Screenshot](./public/app-screenshot.png)
+<video src="./app_demo/app-preview.webm" width="100%" autoplay loop muted></video>
 
 ## Getting Started
 

@@ -8,8 +8,17 @@
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto auto;
   gap: 1rem;
+  max-width: 100%;
+  overflow: hidden;
 
   color: whitesmoke;
+}
+
+.personal-grid .field-container {
+  width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
+  padding: 0.5rem 0;
 }
 
 .personal-grid > :first-child {
@@ -29,6 +38,7 @@
   border: 3px solid #e0e0e0;
   border-radius: 6px;
   text-align: center;
+  width: 100%;
 }
 
 .input-h1:focus {
@@ -36,10 +46,29 @@
   box-shadow: none;
 }
 
+@media (max-width: 768px) {
+  .personal-grid {
+    grid-template-columns: 1fr;
+  }
+  .personal-grid > :nth-child(n + 2) {
+    grid-row: auto;
+  }
+}
+
 @media print {
   .personal-grid {
     background-color: gray;
     color: white;
     print-color-adjust: exact;
+    grid-template-columns: repeat(3, 1fr);
+
+    width: 100%;
+  }
+
+  .personal-grid .field-container:nth-child(2),
+  .personal-grid .field-container:nth-child(3),
+  .personal-grid .field-container:nth-child(4) {
+    padding-left: 5rem;
+    box-sizing: border-box;
   }
 }

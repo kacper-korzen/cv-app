@@ -28,7 +28,7 @@ General info includes name, email, and phone; education covers school, title, an
 
 ## Demo
 
-[**Live Demo**](YOUR_DEPLOYED_URL) | [**Project Specs**](https://www.theodinproject.com/lessons/node-path-react-new-cv-application)
+[**Live Demo**](rootresume.netlify.app) | [**Project Specs**](https://www.theodinproject.com/lessons/node-path-react-new-cv-application)
 
 ## Demo Video
 

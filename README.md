@@ -15,12 +15,12 @@ General info includes name, email, and phone; education covers school, title, an
 
 - 🧱 **React Components** – structured into sections for general info, education, and practical experience (`src/components`).
 - 📝 **Form Sections** – input fields for personal details, education (school, study title, dates), and experience (company, position, responsibilities, dates).
-- ✨ **Live Preview Mode** – tryb podglądu, który blokuje edycję (użycie atrybutu inert), aby zobaczyć czysty dokument.
+- ✨ **Live Preview Mode** – Toggle between edit and preview modes using the inert attribute to freeze inputs for a clean look.
 
-- 📄 **PDF Export** – możliwość zapisu CV do pliku PDF przy użyciu systemowego okna drukowania i dedykowanych stylów @media print.
+- 📄 **PDF Export** – Print-ready styling using CSS @media print to save your résumé as a professional PDF.
 - ✏️ **Edit/Submit Toggle** – buttons to switch between input forms and displayed CV content, pre-filling values on edit.
 - 💾 **State & Props** – manages form data and rendering across components.
-- 🎨 **Custom Styling** – CSS files in `src/styles`.
+- 🎨 **Custom Styling** – Responsive layouts using CSS Grid and Flexbox, with dedicated print styles.
 - ⚙️ **No Backend** – client-side React app for learning core concepts.
 - 🚀 **Built with [Vite](https://vitejs.dev/)** – fast development server and builds.
 
@@ -31,6 +31,7 @@ General info includes name, email, and phone; education covers school, title, an
 [**Live Demo**](YOUR_DEPLOYED_URL) | [**Project Specs**](https://www.theodinproject.com/lessons/node-path-react-new-cv-application)
 
 ## Demo Video
+
 [Podgląd aplikacji](https://github.com/user-attachments/assets/a9cf9e2b-0ac8-4df0-8003-99695fbf9f2a)
 
 ## Getting Started
@@ -40,7 +41,7 @@ To run this project locally:
 1. Clone the repository:
 
 ```
-git clone https://github.com/YOUR_USERNAME/cv-application.git
+git clone https://github.com/kacper-korzen/cv-application.git
 cd cv-application
 npm install
 npm run dev

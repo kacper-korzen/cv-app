@@ -93,7 +93,7 @@ To run this project locally:
 1. Clone the repository:
 
 ```
-git clone https://github.com/kacper-korzen/cv-application.git
+git clone https://github.com/kacper-korzen/cv-app.git
 cd cv-application
 npm install
 npm run dev
